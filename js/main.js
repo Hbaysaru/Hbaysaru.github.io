@@ -49,18 +49,4 @@ window.addEventListener('scroll', function() {
       timelineB.style.opacity = 0;
       timelineC.style.opacity = 0;
     }
-
-    texts.forEach(function(text) {
-      var textRect = text.getBoundingClientRect();
-  
-      if (textRect.top <= screenHeight / 2) {
-        if (text.classList.contains('js-small-block-text')){
-          text.style.right = 0;
-        } else {
-          text.style.left = 0;
-        }
-        text.style.transition = 'all 1s';
-        text.style.opacity = 1;
-      }
-    });
-  });
+})
