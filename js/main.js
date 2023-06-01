@@ -63,9 +63,6 @@ window.addEventListener('scroll', function() {
         } else {
           text.style.left = 0;
         }
-        text.style.transition = 'all 1s';
-        text.style.-moz-transition = 'all 1s';
-        text.style.-webkit-transition = 'all 1s';
         text.style.opacity = 1;
       }
     });
