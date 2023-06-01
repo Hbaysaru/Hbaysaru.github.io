@@ -27,6 +27,10 @@ h1{
 
 h2{
 	opacity: 0;
+	transition = all 1s;
+	-moz-transition = all 1s;
+	-webkit-transition = all 1s;
+
 }
 
 a {
@@ -220,6 +224,9 @@ li{
 	height: 0px;
 	max-height: 700px;
 	z-index: 1;
+	transition: opacity 1s;
+	-moz-transition: opacity 1s;
+	-webkit-transition: opacity 1s;
 }
 
 .link-button {
