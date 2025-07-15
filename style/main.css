@@ -1,10 +1,11 @@
 @font-face {
-	font-family: 'The Last Shuriken';
-	src: url('/Hbaysaru.github.io/js/fonts/the-last-shuriken-the-last-shuriken-700.woff') format('woff'),
-		 url('/Hbaysaru.github.io/js/fonts/the-last-shuriken-the-last-shuriken-700.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-  }
+  font-family: 'The Last Shuriken';
+  src: url('../js/fonts/the-last-shuriken-the-last-shuriken-700.woff2') format('woff2'),
+       url('../js/fonts/the-last-shuriken-the-last-shuriken-700.woff') format('woff'),
+       url('../js/fonts/the-last-shuriken-the-last-shuriken-700.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 /* Header Start */
 
 body {
