@@ -9,7 +9,7 @@ window.addEventListener('scroll', function() {
       var previousElement = sun.previousElementSibling;
   
       if (sunRect.top <= screenHeight / 2) {
-        sun.style.transition = 'all 1.5s';
+        sun.style.transition = 'all 1s';
         sun.style.transform = 'rotate(180deg)';
         sun.style.opacity = 1;
         if (previousElement && previousElement.tagName === 'H2'){
