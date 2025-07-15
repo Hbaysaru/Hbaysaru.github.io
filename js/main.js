@@ -13,7 +13,6 @@ window.addEventListener('scroll', function() {
         sun.style.transform = 'rotate(180deg)';
         sun.style.opacity = 1;
         if (previousElement && previousElement.tagName === 'H2'){
-            previousElement.style.transition = 'all 1s';
             previousElement.style.opacity = 1;
         }
       }
@@ -28,7 +27,6 @@ window.addEventListener('scroll', function() {
       if (timelineTop <= screenHeight / 2) {
         timeline.style.height = timelineHeight + 'px';
         timeline.style.opacity = 1;
-        timeline.style.transition = 'opacity 1s';
       } else {
         timeline.style.height = '0px';
       }
